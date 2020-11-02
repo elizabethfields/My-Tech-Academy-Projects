@@ -66,7 +66,7 @@ es.squares:nth-child(2) {
     /*----------------------
     HOVER EFFECTS
     -------------------------*/
-    container .squares:nth-child(-n+4):hover {
+    .container .squares:nth-child(-n+4):hover {
       background-image: url("../icons/smileyface1.png");
       transform: scale(.5);
       animation-name: race;
